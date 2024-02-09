@@ -1,0 +1,22 @@
+16:07:42.772 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\2303444\eclipse-workspace\HackathonProject\grouping.xml
+
+16:08:27.618 [main] INFO  org.testng.annotations.Test - *****Starting TC_001_Upcoming Bikes*****
+16:09:28.368 [main] INFO  org.testng.annotations.Test - Clicked on Upcoming Bikes
+16:10:01.935 [main] INFO  org.testng.annotations.Test - Clicked on Honda Bikes
+16:10:05.928 [main] INFO  org.testng.annotations.Test - Clicked on view more Bikes
+16:10:13.383 [main] INFO  org.testng.annotations.Test - Captured all Upcoming Bikes under 4 lac
+16:10:13.383 [main] INFO  org.testng.annotations.Test - *****Ending TC_001_Upcoming Bikes*****
+16:10:13.854 [main] INFO  org.testng.annotations.Test - *****Starting TC_002_Used Cars*****
+16:10:20.716 [main] INFO  org.testng.annotations.Test - Clicked on logo zigwheels to go back home page
+16:10:51.226 [main] INFO  org.testng.annotations.Test - In Used Cars clicked on Chennai
+16:10:58.556 [main] INFO  org.testng.annotations.Test - Captured all Popular models
+16:10:58.556 [main] INFO  org.testng.annotations.Test - *****Ending TC_002_Used Cars*****
+16:10:59.188 [main] INFO  org.testng.annotations.Test - *****Starting TC_003_Login Page*****
+16:11:06.012 [main] INFO  org.testng.annotations.Test - Clicked on logo zigwheels to go back home page
+16:11:09.416 [main] INFO  org.testng.annotations.Test - Clicked on login
+16:11:10.542 [main] INFO  org.testng.annotations.Test - Clicked on google
+16:11:12.859 [main] INFO  org.testng.annotations.Test - Provided random email id
+16:11:13.637 [main] INFO  org.testng.annotations.Test - Clicked on next
+16:11:17.083 [main] INFO  org.testng.annotations.Test - Captured the error message
+16:11:17.083 [main] INFO  org.testng.annotations.Test - *****Ending TC_003_Login Page*****
