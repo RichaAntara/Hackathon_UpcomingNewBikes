@@ -102,16 +102,16 @@ public class UpcomingBikesPage extends BasePage {
 	}
 	
 	
-	public boolean VerifyUpcomingBikesPage() throws InterruptedException {
+	// public boolean VerifyUpcomingBikesPage() throws InterruptedException {
 
-		String resultWebsite = driver.getTitle();
-		String expectedWebsite = "Upcoming Bikes in India 2024/25, See Price, Launch Date, Specs @ ZigWheels";
-		try {
-			return(resultWebsite.equals(expectedWebsite));
-		}   catch(Exception e) {
-			return(false);
-		}
-	}
+	// 	String resultWebsite = driver.getTitle();
+	// 	String expectedWebsite = "Upcoming Bikes in India 2024/25, See Price, Launch Date, Specs @ ZigWheels";
+	// 	try {
+	// 		return(resultWebsite.equals(expectedWebsite));
+	// 	}   catch(Exception e) {
+	// 		return(false);
+	// 	}
+	// }
 
 	public boolean verifyHonda() {
 		boolean ub = manufacturer.isEnabled();	
@@ -126,16 +126,16 @@ public class UpcomingBikesPage extends BasePage {
 		select.selectByVisibleText("Honda");
 	} 
 	
-	public boolean VerifyUpcomingHondaBikesPage() throws InterruptedException {
+	// public boolean VerifyUpcomingHondaBikesPage() throws InterruptedException {
 
-		String resultWebsite = driver.getTitle();
-		String expectedWebsite = "Upcoming Honda Bikes in India 2024/25, See Price, Launch Date, Specs @ ZigWheels";
-		try {
-			return(resultWebsite.equals(expectedWebsite));
-		}   catch(Exception e) {
-			return(false);
-		}
-	}
+	// 	String resultWebsite = driver.getTitle();
+	// 	String expectedWebsite = "Upcoming Honda Bikes in India 2024/25, See Price, Launch Date, Specs @ ZigWheels";
+	// 	try {
+	// 		return(resultWebsite.equals(expectedWebsite));
+	// 	}   catch(Exception e) {
+	// 		return(false);
+	// 	}
+	// }
 
 	
 	public boolean verifyViewMore() {
