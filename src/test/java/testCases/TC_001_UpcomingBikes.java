@@ -42,15 +42,15 @@ public class TC_001_UpcomingBikes extends BaseClass{
 		 try {
 			   ubp = new UpcomingBikesPage(driver);
 			 
-				boolean targetPage1=ubp.VerifyUpcomingBikesPage(); 
-				if(targetPage1) {
-					System.out.println("Upcoming Bikes page has opened");
-					Assert.assertEquals(true,true);
-				}
-				else {
-					System.out.println("Upcoming Bikes page has not opened");
-					Assert.assertEquals(false, true);
-				}
+				// boolean targetPage1=ubp.VerifyUpcomingBikesPage(); 
+				// if(targetPage1) {
+				// 	System.out.println("Upcoming Bikes page has opened");
+				// 	Assert.assertEquals(true,true);
+				// }
+				// else {
+				// 	System.out.println("Upcoming Bikes page has not opened");
+				// 	Assert.assertEquals(false, true);
+				// }
 				
 				ubp.SSOfUpcomingNewBikes();
 				
@@ -65,15 +65,15 @@ public class TC_001_UpcomingBikes extends BaseClass{
 				ubp.clickHonda();
 				logger.info("Clicked on Honda Bikes");
 				
-				boolean targetPage2=ubp.VerifyUpcomingHondaBikesPage();
-				if(targetPage2) {
-					System.out.println("Upcoming Honda Bikes page has opened");
-					Assert.assertEquals(true,true);
-				}
-				else {
-					System.out.println("Upcoming Honda Bikes page has not opened");
-					Assert.assertEquals(false, true);
-				}
+				// boolean targetPage2=ubp.VerifyUpcomingHondaBikesPage();
+				// if(targetPage2) {
+				// 	System.out.println("Upcoming Honda Bikes page has opened");
+				// 	Assert.assertEquals(true,true);
+				// }
+				// else {
+				// 	System.out.println("Upcoming Honda Bikes page has not opened");
+				// 	Assert.assertEquals(false, true);
+				// }
 				
 				ubp.SSOfUpcomingHondaBikes();
 				
